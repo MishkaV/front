@@ -1,0 +1,27 @@
+.reg_content h1{
+    color: #ffffff;
+}
+
+.reg_content{
+    text-align: center;
+    width: 30%;
+    min-height: 250px;
+    padding-left: 0;
+}
+.reg_student_path,
+.reg_teacher_path{
+    color: #2072EC;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.reg_student_path_btn,
+.reg_teacher_path_btn
+{
+    width: 60%;
+    min-width: 60%;
+    margin: 0 auto;
+}
