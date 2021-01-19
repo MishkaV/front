@@ -14,7 +14,7 @@ function Auth() {
                     <input type="text" className="reg_input shadow_hover_effect" id="auth-login" placeholder="Логин или электронная почта"></input>
                     <input type="password" className="reg_input shadow_hover_effect" id="auth-password" placeholder="Пароль"></input>
                     <NavLink className="auth_sign_in"
-                    to="/">
+                    to="/main_active/">
                         <Button text="Войти"/>
                     </NavLink>
                     <div className="auth_other_section">

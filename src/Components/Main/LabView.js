@@ -1,6 +1,6 @@
 
 import CheckSign from '../../img/icons/check.png';
-import CrossSign from '../../img/icons/cross.png';
+import CrossSign from '../../img/icons/no-check.png';
 
 function LabView(props){
     return(

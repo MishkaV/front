@@ -6,6 +6,7 @@ import Auth from './pages/js/Auth';
 import ProfileReg from './pages/js/ProfileReg';
 import StudentReg from './pages/js/StudentReg';
 import TeacherReg from './pages/js/TeacherReg';
+import MainPage from './pages/js/MainPage';
 
 function App() {
   return (
@@ -29,9 +30,10 @@ function App() {
       <Switch>
         <Route path={'/'} exact component={Home} />
         <Route path={'/authorization/'} component={Auth} />
-        <Route path={'/new_user_registration/'} component={ProfileReg} />
+        {/* <Route path={'/new_user_registration/'} component={ProfileReg} /> */}
         <Route path={'/student_registration/'} component={StudentReg} />
-        <Route path={'/teacher_registration/'} component={TeacherReg} />
+        {/* <Route path={'/teacher_registration/'} component={TeacherReg} /> */}
+        <Route path={'/main_active/'} component={MainPage} />
       </Switch>
     </BrowserRouter>
     

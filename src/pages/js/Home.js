@@ -40,7 +40,7 @@ const Home = () => {
                     </div>
                 </NavLink>
                 <NavLink className="sign sign-up"
-                to="/new_user_registration/">
+                to="/student_registration/">
                     <div className="btn sign-up-btn">
                         <span>Зарегистрироваться</span>
                     </div>
